@@ -37,10 +37,10 @@ html body {
     color: var(--text-primary);
 }
 
-.screenshot-button {
+.button-bg {
     background-color: var(--surface-secondary);
 }
 
-.screenshot-button:hover {
+.button-bg:hover {
     background-color: var(--surface-secondary-hover);
 }

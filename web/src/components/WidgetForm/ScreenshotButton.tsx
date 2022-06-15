@@ -46,7 +46,7 @@ export function ScreenshotButton({
         <button
             type="button"
             onClick={handleTakeScreenshot}
-            className="screenshot-button p-2 rounded-md border-transparent transition-colors"
+            className="button-bg p-2 rounded-md border-transparent transition-colors"
             title="Capturar tela atual"
         >
             {isTakingScreenshot ? <Loading /> : <Camera className="w-6 h-6 " />}
