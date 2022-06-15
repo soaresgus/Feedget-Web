@@ -44,7 +44,7 @@ export function FeedbackContentStep({
             <header>
                 <button
                     type="button"
-                    className="top-5 left-5 absolute text-zinc-400 hover:text-zinc-100"
+                    className="top-5 left-5 absolute button"
                     onClick={onFeedbackRestartRequested}
                     >
                     <ArrowLeft weight="bold" className="w-4 h-4" />
@@ -78,7 +78,7 @@ export function FeedbackContentStep({
                     <button
                         type="submit"
                         disabled={comment.length == 0 || isSendingFeedback}
-                        className="p-2 bg-brand-500 rounded-md border-transparent flex-1 flex justify-center items-center text-sm hover:bg-brand-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-zinc-900 focus:ring-brand-500 transition-all disabled:opacity-50 disabled:hover:bg-brand-500"
+                        className="p-2 bg-brand-500 rounded-md border-transparent flex-1 flex justify-center items-center text-sm hover:bg-brand-300 transition-all disabled:opacity-50 disabled:hover:bg-brand-500 text-white"
                         title="Enviar feedback"
                     >
                         {

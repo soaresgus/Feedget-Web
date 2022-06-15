@@ -2,6 +2,43 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+html.dark body {
     @apply bg-[#09090A] text-zinc-100;
+
+    --surface-primary: #18181B;
+    --surface-secondary: #27272A;
+    --surface-secondary-hover: #3F3F46;
+    --text-primary: #F4F4F5;
+    --text-secondary: #A1A1AA;
+    --text-on-brand-color: #FFFFFF;
+}
+
+html body {
+    @apply bg-[#f7f7f7] text-zinc-800;
+    --brand: #8257ee;
+    --brand-hover: #996DFF;
+    --text-on-brand-color: #FFFFFF;
+
+    --surface-primary: #fff;
+    --surface-secondary: #f4f4f5;
+    --surface-secondary-hover: #E4E4E7;
+    --text-primary: #27272a;
+    --text-secondary: #71717a;
+    --text-on-brand-color: #f4f4f5;
+}
+
+.button {
+    color: var(--text-secondary);
+}
+
+.button:hover {
+    color: var(--text-primary);
+}
+
+.screenshot-button {
+    background-color: var(--surface-secondary);
+}
+
+.screenshot-button:hover {
+    background-color: var(--surface-secondary-hover);
 }
