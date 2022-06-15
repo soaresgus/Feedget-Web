@@ -25,6 +25,8 @@ html body {
     --text-primary: #27272a;
     --text-secondary: #71717a;
     --text-on-brand-color: #f4f4f5;
+
+    transition: 0.5s;
 }
 
 .button {
